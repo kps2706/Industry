@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
 
     <!-- Navbar section Start -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="menuitems">
                 <ul class="navbar-nav ms-auto my-3 my-md-0">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
@@ -347,6 +347,68 @@
     </div>
     <!-- Newsletter Section End -->
 
+    <!-- Pricing section Start -->
+    <section id="pricing" class="container py-5">
+        <div class="text-center py-5">
+            <h2 class="fw-bolder border-bottom border-3 d-inline-block border-info pb-1">Pricing</h2>
+            <p class="fs-3 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis numquam eos itaque
+                ipsam et earum!</p>
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-4 mb-5">
+                <div class="text-center p-5 shadow-lg" data-aos="fade-right">
+                    <h4 class="fw-bold py-3">Free Plan</h4>
+                    <p class="fs-1 fw-bolder mb-0">$0.00</p>
+                    <p class="fw-bolder text-info">per month</p>
+                    <div class="list py-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="text-center p-5 shadow-lg border-4 border-top border-bottom border-info" data-aos="fade-up">
+                    <h4 class="fw-bold py-3">Single Plan</h4>
+                    <p class="fs-1 fw-bolder mb-0">$49</p>
+                    <p class="fw-bolder text-info">per month</p>
+                    <div class="list py-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="text-center p-5 shadow-lg" data-aos="fade-left">
+                    <h4 class="fw-bold py-3">Team Plan</h4>
+                    <p class="fs-1 fw-bolder mb-0">$100.00</p>
+                    <p class="fw-bolder text-info">per month</p>
+                    <div class="list py-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                            <li class="list-group-item ">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit.</li>
+                            <li class="list-group-item ">Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing section End -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

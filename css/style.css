@@ -5,3 +5,9 @@
 body{
     font-family: 'Nunito';
 }
+.nav-link.active{
+    color: red !important;
+   border-bottom: 4px;
+   border-color: red;
+    padding-bottom: 5px;
+}
